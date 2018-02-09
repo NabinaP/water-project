@@ -1,0 +1,78 @@
+
+.vidtop-content {
+  top: 0px;
+  left: 299px;
+  position: absolute;
+  color: #fff;
+  font-style: bold;
+}
+.vidtop-content h1{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 90px;
+}
+.vidtop-content h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 33px;
+}
+.video-content a{
+	margin-top: 30px;
+}
+.report{
+	margin-left: 73px;
+}
+.report-btn{
+	margin-left: 73px;
+}
+.global-btn{
+	margin-left: 289px;
+}
+.global-images{
+	margin-top: 70px;
+}
+
+/*sign up css section*/
+.signup-logo{
+	margin-left: 488px;
+    margin-top: 40px;
+}
+.signup-logo img{
+	width: 350px;
+}
+.news-letter{
+	text-align: center;
+}
+.news-letter h3{
+	color: #336699;
+}
+.news-letter p{
+	color: #336699;
+}
+.last-sign{
+	margin-top: 20px;
+}
+.last-sign p{
+	font-size: 12px;
+	margin-left: 436px;
+}
+.our-form{
+   margin-left: 442px;
+}
+.form-control {
+    width: 52%;
+   } 
+label {
+    color: #336699;
+}
+.btn-default {
+    color: white;
+    background-color: #fea802;
+    border-color: #dc7f10;
+    width: 52%;
+}
+.btn-default:hover{
+	color: white;
+	background-color: #fea802;
+    border-color: #dc7f10;
+}

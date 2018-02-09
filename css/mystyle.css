@@ -1,0 +1,904 @@
+body{
+  overflow-x: hidden;
+}
+.nav .design a{
+  text-decoration: none;
+  padding:0.5em 1em;
+  color: #959595;
+  font-style: italic;
+}
+.navbar1{
+  background-color: white;
+  border-radius: 0px;
+  min-height: 0px;
+}
+.navbar-nav1{
+   margin-top: 10px;
+   margin-left: 860px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 5px 8px;
+    margin-top: 9px;
+    margin-right: 15px;
+    margin-bottom: -47px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+/*start of video*/
+
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+  /*video ko*/
+    .navbar-default{
+       background-color: rgba(27,122,175,0.9);
+       position: absolute;
+       width: 100%;
+       top:4.6%;
+       z-index: 1;
+       border-radius: 0px;
+       border-bottom: 1px solid grey;
+    }
+   .video-frame{
+      position: relative;
+    }
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+  top: 40px;
+  left: 380px;
+  position: absolute;
+  color: #fff;
+  font-style: bold;
+}
+#vidtop-content h1{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 90px;
+}
+#vidtop-content h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 33px;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); -webkit-transition: .6s background; transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+.video{
+  margin-top:50px;
+}
+.js-video-popup {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #FFF;
+  margin-left: 274px;
+  margin-top: 50px;
+}
+.js-video-popup a span{
+  text-decoration: none;
+}
+.welcome a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 275px;
+}
+.js-video-popup i{
+   margin-left: 26px;
+   margin-top: 24px;
+}
+.video-class{
+  position: relative;
+}
+/*end of video*/
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/*start of brandcarousel*/
+.brand-carousel{
+
+  background-color:  #f5f5f5;
+  height: 140px;
+ }
+.brand-carousel .item
+{
+border:1px solid #f5f5f5;
+padding: 15px;
+background-color: #f5f5f5;
+}
+.brand-carousel .item img
+{
+  width: 125px;
+}
+/*end of brandcarousel*/
+.text{
+  margin-top: 30px;
+  width: 219px;
+}
+.img-a7
+{
+  width: 10px;
+}
+.text-edit{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.text-edit h3 p{
+  line-height: 49px;
+  color: #555;
+  background-color: white;
+  border:1px solid white;
+
+}
+/*1stwowjs*/
+.report h1{
+  font-size: 49px;
+  color: #555;
+  margin-top: 178px;
+}
+.report p{
+  font-size: 20px;
+  color: #555;
+  margin-top: 25px;
+}
+/*end of 1stwowjs*/
+
+/*start of button(see the result*/
+.button
+{
+  border-radius: 0px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: #01a1dd;
+  border:2px solid #01a1dd;
+  padding: 1em 3em 0.8em;
+  position: relative;
+}
+.button:hover
+{
+  background-color: transparent;
+  color: #01a1dd;
+  border:2px solid white;
+}
+/*end of button(see the result*/
+/*1stwowjs*/
+.report1>h1{
+  font-size: 47px;
+  color: #555;
+  margin-top: 320px;
+}
+.report1>p{
+  font-size: 20px;
+  color: #555;
+  margin-top: 25px;
+}
+/*end of 1stwowjs*/
+/*2ndwowjs*/
+.img-animation img{
+   margin-top: 200px;
+}
+.report2>p{
+  font-size: 20px;
+  color: #555;
+  margin-top: 479px;
+}
+/*end of 2ndwowjs*/
+
+/*img*/
+.texas img{
+  width: 100px;
+  margin-top: 30px;
+}
+
+.texas{
+  float: left;
+}
+
+/*expert*/
+.img-goldenticket img{
+  width: 153px; 
+  margin-bottom: 82px;
+}
+.img-bmc-logo img{
+  width: 153px;
+   margin-bottom:97px;
+}
+.whitewater-nav-contact1{
+  position: relative;
+  background-color: rgba(60,60,60,0.5);
+}
+.whitewater-nav-contact{
+  position: absolute;
+  top: 11%;
+    left: 436px;
+  text-align:center;
+}
+.whitewater-nav-contact h1{
+  color: white;
+  }
+.whitewater-nav-contact h3{
+  color: white;
+  }
+.button1
+{
+  border-radius: 0px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top:2px solid white;
+  border-bottom: 2px solid white; 
+  padding: 1em 3em 0.8em;
+  position: relative;
+}
+.button1:hover
+{
+  background-color: transparent;
+  color: white;
+}
+/*end of expert*/
+
+/*start of latest news*/
+.latest-news>h1{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.waterpark-nav-latestnews{
+  background-color: rgba(60,60,60,0.6);
+}
+.waterpark-nav-latestnews1{
+  position: relative;
+
+}
+/*niwesh css*/
+.waterpark-nav-latestnews{
+  position: relative;
+}
+.waterpark-nav-latestnews>img{
+  max-width: 100%;
+  opacity: 0.3;
+}
+  /*inside-divs*/
+  .waterpark-nav-latesrnews1{
+    position: absolute;
+    top: -104px;
+    right: 10%;
+  }
+   /*inside-cols*/
+   .image-holder>img{
+      max-width: 100%;
+   }
+
+   .image-holder-nav>h4{
+    color: white;
+   }
+
+   .image-holder-nav>p{
+    color: white;
+   }
+
+   .image-holder{
+    position: relative;
+   }
+   .image-holder-nav{
+    position: absolute;
+    top: 465px;
+    left: 41px;
+   }
+/*end of latest news*/
+
+
+/*fadeinup*/
+.whitewater-fadeinup{
+  margin-top: 200px;
+  margin-left: 72px;
+}
+
+.whitewater-fadeinup1>h4{
+  color: #777;
+}
+.whitewater-fadeinup1>p{
+  color: #777;
+}
+
+/*end of fadeinup*/
+
+/*start of footer*/
+.last-water{
+  background:#016d9c;
+  color: white; 
+}
+.whitewater-footer{
+  margin-bottom: 40px;
+}
+.info{
+  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.img-svg-logo img{
+  margin-bottom: 130px;
+}
+.info1{
+  margin-bottom: 20px;
+}
+/*.the-news i{
+  color: #aac1d4;
+}*/
+.the-news a{
+color: #aac1d4;
+text-decoration: none;
+}
+.the-news a:hover{
+  color: white;
+  margin-top: 70px;
+}
+.terms-condition a{
+  text-decoration: none;
+  color: #aac1d4;
+}
+.terms-condition a:hover{
+  color: white;
+}
+.terms-condition p{
+  color: #aac1d4;
+  font-size: 12px;
+
+}
+/*end of foooter*/
+
+/*Megamenu*/
+
+/*header*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.navbar-nav{
+  margin-top: 29px;
+}
+.btn-slo{
+  border-radius: 0px;
+  padding: 10px;
+  width: 174px;
+  font-size: 14px;
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+}
+.megaclass a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+}
+
+.whitewater-megamenu{
+  margin-left: 40px;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: #1e77a2;
+}
+.mega-dropdown-menu  li   {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu li   li {
+  list-style: none;
+}
+.mega-dropdown-menu > li  li  a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li li  a:hover,
+.mega-dropdown-menu > li  li  a:focus {
+  text-decoration: none;
+}
+.first-logo img{
+   width: 250px;
+}
+.js-navbar-collapse{
+  margin-left: 478px;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: transparent;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+}
+  /*inner megadropdown*/
+
+  /*service solution*/
+  .service-solution{
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+  }
+.service-solution h3{
+ color: white;
+}
+.service-solution p{
+  color: white;
+}
+.service-solution a{
+  color: white;
+}
+.service-solution a:hover{
+  color: white;
+}
+/*end of service-solution*/
+
+/*whitewaterlist*/
+.whitewater-list{
+  margin-top: 50px;
+}
+.whitewater-list ul li{
+     list-style: none;
+}
+.whitewater-list ul li a{
+     color: white;
+     font-size: 18px;
+}
+.whitewater-img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*.js-navbar-collapse{
+  background-color: rgba(27,122,175,0.8);
+}
+*/
+
+
+/* btn contactus*/
+.btn-slo{
+  background-color: transparent;
+  border: 2px solid white;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+.btn-slo:hover{
+  background-color: transparent;
+   border: 2px solid white;
+}
+/*end of header*/
+
+
+/*media query 1024*/
+@media(max-width: 1024px){
+  .navbar-nav1 {
+    margin-left: 576px;
+   }
+  #vidtop-content {
+    left: 218px;
+    top: 1px;
+  }
+  .first-logo img{
+   width: 200px;
+  }
+  .js-navbar-collapse{
+     margin-left: 0px;
+     font-size: 12px;
+  }
+  .navbar-default{
+    top: 8%;
+  }
+  .video-frame iframe {
+    height: 576px;
+  }
+  .report2{
+    margin-top: -95px;
+  }
+  .image-holder-head{
+    margin-left: 88px;
+  }
+  .image-holder-nav {
+    top: 381px;
+   }
+   .whitewater-nav-contact {
+    top: 22%;
+    left: 295px;
+  }
+}
+
+
+/*media query 768*/
+
+@media(max-width: 769px){
+  .img-waterslide2{
+    display: none !important;
+  }
+}
+@media(max-width: 768px){
+  .navbar-nav1 {
+    margin-left: 344px;
+  }
+  .responsive{
+    float: none;
+    width: 100%;
+  }
+  .whitewater-nav-contact{
+    left: 162px;
+  }
+  .text-edit {
+    margin-bottom: 70px;
+   }
+  .image-holder-head{
+    margin-left: 62px;
+  }
+  .image-holder-nav {
+    top: 259px;
+  }
+  .img-1stimg{
+    margin-top: 90px;
+  }
+  .img-animation img {
+    margin-top: 90px;
+  }
+  .report h1 {
+    margin-top: 30px;
+   }
+  .report1>h1 {
+    margin-top: 30px;
+  }
+  .report2>p {
+    margin-top: 106px;
+  }
+  #vidtop-content{
+    left: 180px;
+    top: -55px;
+  }
+  #vidtop-content h1{
+    font-size: 67px;
+  }
+  #vidtop-content h3{
+    font-size: 25px;
+  }
+  .js-video-popup {
+    margin-left: 168px;
+    margin-top: 6px;
+  }
+  .welcome a {
+    margin-left: 178px;
+  }
+  .video-frame iframe {
+    height: 433px;
+    width: 100%;
+  }
+}
+/*end of 768*/
+
+/*media query 425*/
+@media(max-width: 425px){
+  .whitewater-nav-contact h1{
+    font-size: 25px;
+  }
+  .navbar-default{
+       top:-1%;
+    }
+  .js-navbar-collapse{
+      margin-left: 0px;
+    }
+  .whitewater-nav-contact h3{
+    font-size: 18px;
+  }
+  .whitewater-nav-contact{
+    top: 3%;
+    left: 58px;
+    text-align:center;
+   } 
+   .text-edit h3 p{
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .report h1{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .report p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .report1 h1{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .report1 p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .report2 p{
+    margin-top:15px;
+  }
+  .image-holder{
+    width: 100px;
+    height: 100px;
+  }
+  .img-1stimg{
+    margin-top: 40px;
+  }
+  .img-animation img{
+    margin-top: 40px;
+  }
+  .whitewater-fadeinup{
+    margin-top: 50px;
+  }
+  /*footer*/
+
+  .info{
+    margin-top: 40px;
+    margin-bottom: 18px;
+  }
+  .info1{
+    margin-bottom: 15px;
+  }
+  .info img{
+  width: 200px;
+  }
+  .img-svg-logo img{
+    margin-bottom: 30px;
+  }
+  .the-news a i{
+    font-size: 18px;
+  }
+  .navbar-nav1 {
+    margin-top: -107px;
+  }
+}
+/*end of 425*/
+
+
+/*media query 320*/
+@media(min-width: 769px){
+  .img-waterslide{
+    display: none;
+  }
+}
+@media(max-width: 769px){
+  .img-waterslide2{
+    display: none !important;
+  }
+}
+@media(max-width: 320px){
+  .text-edit h3 p{
+    font-size: 18px;
+    line-height: 22px;
+  }
+   .navbar-default{
+       top:-0.4%;
+    }
+    .js-navbar-collapse{
+      margin-left: 0px;
+    }
+  .report h1{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .report p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .report1 h1{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .report1 p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .report2 p{
+    margin-top:113px;
+  }
+  #texas-img{
+    width: 100px;
+    margin-top: 20px;
+  }
+  #texas strong{
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  .button{
+  margin-top: 10px;
+  padding: 0.5em 1em 0.3em;
+  margin-left: 73px;
+  }
+
+  .fadeinup1 h4{
+    text-align: center;
+  }
+
+  .fadeinup p{
+    text-align: center;
+  }
+  .ticket1{
+    margin-top: 0px;
+  }
+  /*video*/
+  .video-frame iframe{
+    height: 180px;
+    width: 100%;
+  }
+  #vidtop-content {
+  top: 10px;
+  left: 10px;
+  }
+  #vidtop-content h1{
+  text-align: center;
+  margin-top:9px;
+  font-size: 30px;
+  margin-left: 36px;
+  }
+  #vidtop-content h3{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 30px;
+  }
+  .js-video-popup {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #FFF;
+    margin-left: 124px;
+    margin-top: 4px;
+  }
+  .fa-play{
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .welcome a{
+    margin-left: 122px;
+  }
+  .texas img{
+    width: 70px;
+  }
+
+  .co-president{
+    font-size: 14px;
+  }
+  
+  /*imges of fade*/
+  .img-goldenticket img{
+    margin-bottom: 30px; 
+  }
+
+  .img-bmc-logo img{
+    margin-bottom: 30px;
+  }
+
+  .img-animation img{
+    margin-top: 80px;
+  }
+
+  .whitewater-fadeinup{
+    margin-top: 80px;
+  }
+  /**/
+
+  /*latest news*/
+  .latest-news>h1{
+    margin-top: 50px;
+  }
+  .img-holder img{
+    width: 100px;
+  }
+  .image-holder>img{
+      max-width: 100px;
+      height: 100px;
+   }
+
+   /*contact us*/
+   .whitewater-nav-contact h1{
+    font-size: 20px;
+   }
+   .whitewater-nav-contact h3{
+    font-size: 15px;
+   }
+   .whitewater-nav-contact{
+    top: 3%;
+    left: 36px;
+    text-align:center;
+   } 
+   .button1{
+    margin-top: 5px; 
+    padding: 1em 2em 0.8em;
+  }
+
+  /*footer*/
+
+  .info{
+    margin-top: 40px;
+    margin-bottom: 18px;
+  }
+  .info1{
+    margin-bottom: 15px;
+  }
+  .info img{
+  width: 200px;
+  }
+  .img-svg-logo img{
+    margin-bottom: 30px;
+  }
+  .the-news a i{
+    font-size: 18px;
+  }
+  .navbar-nav1 {
+    margin-top: -107px;
+  }
+}

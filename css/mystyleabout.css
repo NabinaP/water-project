@@ -1,0 +1,174 @@
+.vidtop-content1 {
+  top: 0px;
+  left: 540px;
+  position: absolute;
+  color: #fff;
+  font-style: bold;
+}
+.vidtop-content1 h1{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 90px;
+}
+.vidtop-content1 h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 33px;
+}
+.global-btn1 {
+    margin-left: 80px;
+}
+.nav .design a{
+  text-decoration: none;
+  padding:0.5em 1em;
+  color: #959595;
+  font-style: italic;
+}
+.navbar2{
+  background-color: white;
+  border-radius: 0px;
+  min-height: 0px;
+}
+.navbar-nav2{
+   margin-top: 30px;
+   margin-left: 376px;
+}
+.hello{
+	margin-top: 40px;
+}
+.hello p{
+	font-size: 23px;
+	color: #777;
+}
+.hello2 p{
+	font-size: 23px;
+	color: #777;
+}
+.hello2 h3{
+	margin-top: 70px;
+}
+.whitewater-nav-contact1{
+	margin-top: 90px;
+}
+.whitewater-nav-contact3{
+	position: absolute;
+    top: 31%;
+    left: 361px;
+    text-align: center;
+}
+.whitewater-nav-contact3 h1{
+  color: white;
+  }
+.whitewater-nav-contact3 h3{
+  color: white;
+  }
+
+
+  /*css of design*/
+  .design-center{
+  	margin-top: 200px;
+  	border-top: 2px solid #336699;
+  }
+  .design-center h1{
+  	font-size: 123px;
+  	color: #555;
+  }	
+  .design-center h3{
+  	font-size: 40px;
+  	color: #555;
+  }
+   .design-center p{
+  	font-size: 20px;
+  	color: #555;
+  }
+  .login-design a{
+    text-decoration: none;
+  }
+  .login-design h1{
+  	font-size: 40px;
+  }
+  .register a{
+  	text-decoration: none;
+  }
+
+  /*css of careers.html*/
+  .vidtop-content2 {
+  top: 0px;
+  left: 426px;
+  position: absolute;
+  color: #fff;
+  font-style: bold;
+}
+.vidtop-content2 h1{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 90px;
+}
+.vidtop-content2 h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 33px;
+}
+.global-btn2 {
+    margin-left: 180px;
+}
+.current h2{
+	font-size: 40px;
+	color: #777;
+}
+.current p{
+	font-size: 22px;
+	color: #777;
+}
+.canada li {
+	list-style: none;
+	color: #777;
+	font-size: 20px;
+}
+.canada a{
+	text-decoration: none;
+}
+
+
+/*css of contact us*/
+.our-location h1{
+	margin-top: 50px;
+	font-size: 40px;
+	color: #336699;
+}
+.vidtop-content3 {
+  top: 0px;
+  left: 302px;
+  position: absolute;
+  color: #fff;
+  font-style: bold;
+}
+.vidtop-content3 h1{
+  text-align: center;
+  margin-top: 170px;
+  font-size: 90px;
+}
+.vidtop-content3 h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 33px;
+}
+.location-fo h2{
+	color: #777;
+}
+
+.location-fo p{
+   color: #777;
+   font-size: 18px;
+}
+.location-fo a{
+	text-decoration: none;
+}
+.fonts-location a{
+	color: #777;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.fonts-location a:hover{
+	color: #336699;
+}
